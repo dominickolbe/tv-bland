@@ -57,6 +57,12 @@ yarn build
 
 ### Tests
 
+run prettier check
+
+```bash
+yarn prettier-check
+```
+
 run all tests
 
 ```bash

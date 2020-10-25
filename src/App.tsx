@@ -1,5 +1,6 @@
 import React from "react";
+import { FullScreenLoader } from "./components/FullScreenLoader";
 
 export const App = () => {
-  return <h1>tv-bland</h1>;
+  return <FullScreenLoader />;
 };

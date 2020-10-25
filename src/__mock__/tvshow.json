@@ -1,0 +1,380 @@
+{
+  "id": 66,
+  "url": "http://www.tvmaze.com/shows/66/the-big-bang-theory",
+  "name": "The Big Bang Theory",
+  "type": "Scripted",
+  "language": "English",
+  "genres": ["Comedy"],
+  "status": "Ended",
+  "runtime": 30,
+  "premiered": "2007-09-24",
+  "officialSite": "http://www.cbs.com/shows/big_bang_theory/",
+  "schedule": { "time": "20:00", "days": ["Thursday"] },
+  "rating": { "average": 7.9 },
+  "weight": 97,
+  "network": {
+    "id": 2,
+    "name": "CBS",
+    "country": {
+      "name": "United States",
+      "code": "US",
+      "timezone": "America/New_York"
+    }
+  },
+  "webChannel": null,
+  "externals": { "tvrage": 8511, "thetvdb": 80379, "imdb": "tt0898266" },
+  "image": {
+    "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/173/433868.jpg",
+    "original": "http://static.tvmaze.com/uploads/images/original_untouched/173/433868.jpg"
+  },
+  "summary": "<p><b>The Big Bang Theory</b> is a comedy about brilliant physicists, Leonard and Sheldon, who are the kind of \"beautiful minds\" that understand how the universe works. But none of that genius helps them interact with people, especially women. All this begins to change when a free-spirited beauty named Penny moves in next door. Sheldon, Leonard's roommate, is quite content spending his nights playing Klingon Boggle with their socially dysfunctional friends, fellow Cal Tech scientists Wolowitz and Koothrappali. However, Leonard sees in Penny a whole new universe of possibilities... including love.</p>",
+  "updated": 1603593226,
+  "_links": {
+    "self": { "href": "http://api.tvmaze.com/shows/66" },
+    "previousepisode": { "href": "http://api.tvmaze.com/episodes/1646220" }
+  },
+  "_embedded": {
+    "cast": [
+      {
+        "person": {
+          "id": 8679,
+          "url": "http://www.tvmaze.com/people/8679/johnny-galecki",
+          "name": "Johnny Galecki",
+          "country": {
+            "name": "Belgium",
+            "code": "BE",
+            "timezone": "Europe/Brussels"
+          },
+          "birthday": "1975-04-30",
+          "deathday": null,
+          "gender": "Male",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1078.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1078.jpg"
+          },
+          "_links": { "self": { "href": "http://api.tvmaze.com/people/8679" } }
+        },
+        "character": {
+          "id": 8867,
+          "url": "http://www.tvmaze.com/characters/8867/the-big-bang-theory-leonard-leakey-hofstadter",
+          "name": "Leonard Leakey Hofstadter",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439562.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439562.jpg"
+          },
+          "_links": {
+            "self": { "href": "http://api.tvmaze.com/characters/8867" }
+          }
+        },
+        "self": false,
+        "voice": false
+      },
+      {
+        "person": {
+          "id": 8680,
+          "url": "http://www.tvmaze.com/people/8680/jim-parsons",
+          "name": "Jim Parsons",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "birthday": "1973-03-24",
+          "deathday": null,
+          "gender": "Male",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/108/272380.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/108/272380.jpg"
+          },
+          "_links": { "self": { "href": "http://api.tvmaze.com/people/8680" } }
+        },
+        "character": {
+          "id": 8868,
+          "url": "http://www.tvmaze.com/characters/8868/the-big-bang-theory-sheldon-lee-cooper",
+          "name": "Sheldon Lee Cooper",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439561.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439561.jpg"
+          },
+          "_links": {
+            "self": { "href": "http://api.tvmaze.com/characters/8868" }
+          }
+        },
+        "self": false,
+        "voice": false
+      },
+      {
+        "person": {
+          "id": 8682,
+          "url": "http://www.tvmaze.com/people/8682/simon-helberg",
+          "name": "Simon Helberg",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "birthday": "1980-12-09",
+          "deathday": null,
+          "gender": "Male",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1081.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1081.jpg"
+          },
+          "_links": { "self": { "href": "http://api.tvmaze.com/people/8682" } }
+        },
+        "character": {
+          "id": 8870,
+          "url": "http://www.tvmaze.com/characters/8870/the-big-bang-theory-howard-joel-wolowitz",
+          "name": "Howard Joel Wolowitz",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439567.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439567.jpg"
+          },
+          "_links": {
+            "self": { "href": "http://api.tvmaze.com/characters/8870" }
+          }
+        },
+        "self": false,
+        "voice": false
+      },
+      {
+        "person": {
+          "id": 8683,
+          "url": "http://www.tvmaze.com/people/8683/kunal-nayyar",
+          "name": "Kunal Nayyar",
+          "country": {
+            "name": "United Kingdom",
+            "code": "GB",
+            "timezone": "Europe/London"
+          },
+          "birthday": "1981-04-30",
+          "deathday": null,
+          "gender": "Male",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1082.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1082.jpg"
+          },
+          "_links": { "self": { "href": "http://api.tvmaze.com/people/8683" } }
+        },
+        "character": {
+          "id": 8871,
+          "url": "http://www.tvmaze.com/characters/8871/the-big-bang-theory-rajesh-ramayan-koothrappali",
+          "name": "Rajesh Ramayan Koothrappali",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439564.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439564.jpg"
+          },
+          "_links": {
+            "self": { "href": "http://api.tvmaze.com/characters/8871" }
+          }
+        },
+        "self": false,
+        "voice": false
+      },
+      {
+        "person": {
+          "id": 8681,
+          "url": "http://www.tvmaze.com/people/8681/kaley-cuoco",
+          "name": "Kaley Cuoco",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "birthday": "1985-11-30",
+          "deathday": null,
+          "gender": "Female",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/168/421311.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/168/421311.jpg"
+          },
+          "_links": { "self": { "href": "http://api.tvmaze.com/people/8681" } }
+        },
+        "character": {
+          "id": 8869,
+          "url": "http://www.tvmaze.com/characters/8869/the-big-bang-theory-penny",
+          "name": "Penny",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439563.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439563.jpg"
+          },
+          "_links": {
+            "self": { "href": "http://api.tvmaze.com/characters/8869" }
+          }
+        },
+        "self": false,
+        "voice": false
+      },
+      {
+        "person": {
+          "id": 8685,
+          "url": "http://www.tvmaze.com/people/8685/melissa-rauch",
+          "name": "Melissa Rauch",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "birthday": "1980-06-23",
+          "deathday": null,
+          "gender": "Female",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/45/114860.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/45/114860.jpg"
+          },
+          "_links": { "self": { "href": "http://api.tvmaze.com/people/8685" } }
+        },
+        "character": {
+          "id": 8873,
+          "url": "http://www.tvmaze.com/characters/8873/the-big-bang-theory-bernadette-marianne-rostenkowski",
+          "name": "Bernadette Marianne Rostenkowski",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439566.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439566.jpg"
+          },
+          "_links": {
+            "self": { "href": "http://api.tvmaze.com/characters/8873" }
+          }
+        },
+        "self": false,
+        "voice": false
+      },
+      {
+        "person": {
+          "id": 8684,
+          "url": "http://www.tvmaze.com/people/8684/mayim-bialik",
+          "name": "Mayim Bialik",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "birthday": "1975-12-12",
+          "deathday": null,
+          "gender": "Female",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1784.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1784.jpg"
+          },
+          "_links": { "self": { "href": "http://api.tvmaze.com/people/8684" } }
+        },
+        "character": {
+          "id": 8872,
+          "url": "http://www.tvmaze.com/characters/8872/the-big-bang-theory-amy-farrah-fowler",
+          "name": "Amy Farrah Fowler",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439565.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439565.jpg"
+          },
+          "_links": {
+            "self": { "href": "http://api.tvmaze.com/characters/8872" }
+          }
+        },
+        "self": false,
+        "voice": false
+      },
+      {
+        "person": {
+          "id": 8686,
+          "url": "http://www.tvmaze.com/people/8686/kevin-sussman",
+          "name": "Kevin Sussman",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "birthday": "1970-12-04",
+          "deathday": null,
+          "gender": "Male",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/182/456933.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/182/456933.jpg"
+          },
+          "_links": { "self": { "href": "http://api.tvmaze.com/people/8686" } }
+        },
+        "character": {
+          "id": 8874,
+          "url": "http://www.tvmaze.com/characters/8874/the-big-bang-theory-stuart-bloom",
+          "name": "Stuart Bloom",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/132/330841.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/132/330841.jpg"
+          },
+          "_links": {
+            "self": { "href": "http://api.tvmaze.com/characters/8874" }
+          }
+        },
+        "self": false,
+        "voice": false
+      },
+      {
+        "person": {
+          "id": 6656,
+          "url": "http://www.tvmaze.com/people/6656/laura-spencer",
+          "name": "Laura Spencer",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "birthday": "1986-05-08",
+          "deathday": null,
+          "gender": "Female",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/4/12252.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/4/12252.jpg"
+          },
+          "_links": { "self": { "href": "http://api.tvmaze.com/people/6656" } }
+        },
+        "character": {
+          "id": 53928,
+          "url": "http://www.tvmaze.com/characters/53928/the-big-bang-theory-emily-sweeney",
+          "name": "Emily Sweeney",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/45/114666.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/45/114666.jpg"
+          },
+          "_links": {
+            "self": { "href": "http://api.tvmaze.com/characters/53928" }
+          }
+        },
+        "self": false,
+        "voice": false
+      },
+      {
+        "person": {
+          "id": 8687,
+          "url": "http://www.tvmaze.com/people/8687/sara-gilbert",
+          "name": "Sara Gilbert",
+          "country": {
+            "name": "United States",
+            "code": "US",
+            "timezone": "America/New_York"
+          },
+          "birthday": "1975-01-29",
+          "deathday": null,
+          "gender": "Female",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1079.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1079.jpg"
+          },
+          "_links": { "self": { "href": "http://api.tvmaze.com/people/8687" } }
+        },
+        "character": {
+          "id": 8875,
+          "url": "http://www.tvmaze.com/characters/8875/the-big-bang-theory-leslie-winkle",
+          "name": "Leslie Winkle",
+          "image": {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/3/8230.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/3/8230.jpg"
+          },
+          "_links": {
+            "self": { "href": "http://api.tvmaze.com/characters/8875" }
+          }
+        },
+        "self": false,
+        "voice": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "person": {
+      "gender": "Male",
+      "birthday": "1975-04-30",
+      "name": "Johnny Galecki",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/people/8679"
+        }
+      },
+      "url": "http://www.tvmaze.com/people/8679/johnny-galecki",
+      "country": {
+        "timezone": "Europe/Brussels",
+        "code": "BE",
+        "name": "Belgium"
+      },
+      "deathday": null,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1078.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1078.jpg"
+      },
+      "id": 8679
+    },
+    "voice": false,
+    "self": false,
+    "character": {
+      "name": "Leonard Leakey Hofstadter",
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439562.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439562.jpg"
+      },
+      "id": 8867,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/characters/8867"
+        }
+      },
+      "url": "http://www.tvmaze.com/characters/8867/the-big-bang-theory-leonard-leakey-hofstadter"
+    }
+  },
+  {
+    "person": {
+      "gender": "Male",
+      "birthday": "1973-03-24",
+      "name": "Jim Parsons",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/people/8680"
+        }
+      },
+      "url": "http://www.tvmaze.com/people/8680/jim-parsons",
+      "country": {
+        "timezone": "America/New_York",
+        "code": "US",
+        "name": "United States"
+      },
+      "deathday": null,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/108/272380.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/108/272380.jpg"
+      },
+      "id": 8680
+    },
+    "voice": false,
+    "self": false,
+    "character": {
+      "name": "Sheldon Lee Cooper",
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439561.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439561.jpg"
+      },
+      "id": 8868,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/characters/8868"
+        }
+      },
+      "url": "http://www.tvmaze.com/characters/8868/the-big-bang-theory-sheldon-lee-cooper"
+    }
+  },
+  {
+    "person": {
+      "gender": "Male",
+      "birthday": "1980-12-09",
+      "name": "Simon Helberg",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/people/8682"
+        }
+      },
+      "url": "http://www.tvmaze.com/people/8682/simon-helberg",
+      "country": {
+        "timezone": "America/New_York",
+        "code": "US",
+        "name": "United States"
+      },
+      "deathday": null,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1081.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1081.jpg"
+      },
+      "id": 8682
+    },
+    "voice": false,
+    "self": false,
+    "character": {
+      "name": "Howard Joel Wolowitz",
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439567.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439567.jpg"
+      },
+      "id": 8870,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/characters/8870"
+        }
+      },
+      "url": "http://www.tvmaze.com/characters/8870/the-big-bang-theory-howard-joel-wolowitz"
+    }
+  },
+  {
+    "person": {
+      "gender": "Male",
+      "birthday": "1981-04-30",
+      "name": "Kunal Nayyar",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/people/8683"
+        }
+      },
+      "url": "http://www.tvmaze.com/people/8683/kunal-nayyar",
+      "country": {
+        "timezone": "Europe/London",
+        "code": "GB",
+        "name": "United Kingdom"
+      },
+      "deathday": null,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1082.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1082.jpg"
+      },
+      "id": 8683
+    },
+    "voice": false,
+    "self": false,
+    "character": {
+      "name": "Rajesh Ramayan Koothrappali",
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439564.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439564.jpg"
+      },
+      "id": 8871,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/characters/8871"
+        }
+      },
+      "url": "http://www.tvmaze.com/characters/8871/the-big-bang-theory-rajesh-ramayan-koothrappali"
+    }
+  },
+  {
+    "person": {
+      "gender": "Female",
+      "birthday": "1985-11-30",
+      "name": "Kaley Cuoco",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/people/8681"
+        }
+      },
+      "url": "http://www.tvmaze.com/people/8681/kaley-cuoco",
+      "country": {
+        "timezone": "America/New_York",
+        "code": "US",
+        "name": "United States"
+      },
+      "deathday": null,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/168/421311.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/168/421311.jpg"
+      },
+      "id": 8681
+    },
+    "voice": false,
+    "self": false,
+    "character": {
+      "name": "Penny",
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439563.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439563.jpg"
+      },
+      "id": 8869,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/characters/8869"
+        }
+      },
+      "url": "http://www.tvmaze.com/characters/8869/the-big-bang-theory-penny"
+    }
+  },
+  {
+    "person": {
+      "gender": "Female",
+      "birthday": "1980-06-23",
+      "name": "Melissa Rauch",
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/people/8685"
+        }
+      },
+      "url": "http://www.tvmaze.com/people/8685/melissa-rauch",
+      "country": {
+        "timezone": "America/New_York",
+        "code": "US",
+        "name": "United States"
+      },
+      "deathday": null,
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/45/114860.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/45/114860.jpg"
+      },
+      "id": 8685
+    },
+    "voice": false,
+    "self": false,
+    "character": {
+      "name": "Bernadette Marianne Rostenkowski",
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439566.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439566.jpg"
+      },
+      "id": 8873,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/characters/8873"
+        }
+      },
+      "url": "http://www.tvmaze.com/characters/8873/the-big-bang-theory-bernadette-marianne-rostenkowski"
+    }
+  }
+]

@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rating /> renders snapshots, value 5 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(Rating))
+    precision={0.5}
+    readOnly={true}
+    size="small"
+    value={2.5}
+  />
+  <WithStyles(ForwardRef(Typography))
+    component="div"
+    variant="body1"
+  >
+    <Styled(MuiBox)
+      fontWeight="fontWeightBold"
+      ml={2}
+    >
+      2.5
+       / 5
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Typography))>
+</div>
+`;
+
+exports[`<Rating /> renders snapshots, value 7.9 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(Rating))
+    precision={0.5}
+    readOnly={true}
+    size="small"
+    value={3.95}
+  />
+  <WithStyles(ForwardRef(Typography))
+    component="div"
+    variant="body1"
+  >
+    <Styled(MuiBox)
+      fontWeight="fontWeightBold"
+      ml={2}
+    >
+      4.0
+       / 5
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Typography))>
+</div>
+`;
+
+exports[`<Rating /> renders snapshots, value undefined 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(Rating))
+    precision={0.5}
+    readOnly={true}
+    size="small"
+    value={null}
+  />
+  <WithStyles(ForwardRef(Typography))
+    component="div"
+    variant="body1"
+  >
+    <Styled(MuiBox)
+      fontWeight="fontWeightBold"
+      ml={2}
+    >
+      -
+       / 5
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(Typography))>
+</div>
+`;
+
+exports[`<Rating /> renders snapshots, withText false 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(Rating))
+    precision={0.5}
+    readOnly={true}
+    size="small"
+    value={1.665}
+  />
+</div>
+`;

@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+<p align="center">
+  <p align="center">:clapper: :clapper: :clapper:</p>
+  <h3 align="center">tv-bland</h3>
+  <p align="center">source of tv-bland, lol<p>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Preview
 
-## Available Scripts
+[see live version here](https://tv-bland.vercel.app)
 
-In the project directory, you can run:
+visit the latest version live and in color
 
-### `yarn start`
+```http
+https://tv-bland.vercel.app
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Prerequisites
 
-### `yarn test`
+I build this entire project with the following setup:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- macOS Catalina version 10.15.7
+- node v12.18.3
+- npm v6.14.6
+- yarn v1.22.5
 
-### `yarn build`
+### Development
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. create your `.env` file based on the `.env.example`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. install all necessary dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+yarn install
+```
 
-### `yarn eject`
+3. start dev server
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Production
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. install all necessary dependencies
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+yarn install
+```
 
-## Learn More
+2. build application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+yarn build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Tests
+
+run all tests
+
+```bash
+yarn test
+```
+
+---
+
+## Docker
+
+_coming soon ..._
+
+---
+
+## License
+
+MIT License
+
+Copyright (c) 2020 [Dominic Kolbe](https://dominickolbe.dk)

@@ -10,13 +10,12 @@ import { FALLBACK_COVER_IMG } from "../../constants";
 import { TvShowType } from "../../models";
 import { Rating } from "../Rating";
 
-const useStyles = makeStyles((theme) => ({
-  root: {},
+const useStyles = makeStyles(() => ({
+  cover: {
+    height: 250,
+  },
   rating: {
     marginBottom: 15,
-  },
-  tvshowcover: {
-    height: 250,
   },
 }));
 
@@ -28,10 +27,10 @@ export const TvShowCard = (props: {
   const { tvshow, onClick } = props;
 
   return (
-    <Card className={classes.root}>
+    <Card>
       <CardActionArea onClick={() => onClick(tvshow.id)}>
         <CardMedia
-          className={classes.tvshowcover}
+          className={classes.cover}
           image={
             tvshow.image
               ? tvshow.image.medium.replace("http://", "https://")
@@ -44,8 +43,8 @@ export const TvShowCard = (props: {
         <div className={classes.rating}>
           <Rating value={tvshow.rating?.average} withText={false} />
         </div>
-        <Typography variant="subtitle2" color="textSecondary" component="div">
-          <Box fontWeight="fontWeightBold"> {tvshow.name}</Box>
+        <Typography variant="body2" color="textSecondary" component="div">
+          <Box> {tvshow.name}</Box>
         </Typography>
       </CardContent>
     </Card>

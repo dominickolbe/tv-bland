@@ -14,7 +14,9 @@ exports[`<PageHeader /> renders snapshots 1`] = `
       xs={12}
     >
       <WithStyles(ForwardRef(Typography))
+        className="makeStyles-title-2"
         component="div"
+        onClick={[Function]}
         variant="h2"
       >
         <Styled(MuiBox)

@@ -22,6 +22,11 @@ const useStyles = makeStyles((theme) => ({
   root: {
     paddingBottom: theme.spacing(4),
   },
+  divider: {
+    [theme.breakpoints.up("sm")]: {
+      marginBottom: 50,
+    },
+  },
   ratingContainer: {
     [theme.breakpoints.up("sm")]: {
       paddingTop: theme.spacing(4),
@@ -66,8 +71,8 @@ export const TvShow = () => {
   return (
     <Container className={classes.root}>
       <Grid container spacing={2}>
-        <Grid item xs={12} style={{ marginBottom: 50 }}>
-          <Grid container spacing={8}>
+        <Grid item xs={12}>
+          <Grid container spacing={4}>
             <Grid item xs={12} sm={6} md={3}>
               <Paper elevation={5}>
                 <img
@@ -113,12 +118,16 @@ export const TvShow = () => {
         </Grid>
 
         <Grid item xs={12}>
+          <div className={classes.divider}></div>
+        </Grid>
+
+        <Grid item xs={12}>
           <Grid container spacing={4}>
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} sm={6}>
               <ShowInfoList tvshow={tvshow} />
             </Grid>
 
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} sm={6}>
               <StarringList cast={tvshow._embedded?.cast ?? []} />
             </Grid>
           </Grid>

@@ -15,6 +15,14 @@ const useStyles = makeStyles((theme) => ({
   root: {
     paddingBottom: theme.spacing(4),
   },
+  divider: {
+    [theme.breakpoints.up("xs")]: {
+      marginBottom: 30,
+    },
+    [theme.breakpoints.up("sm")]: {
+      marginBottom: 50,
+    },
+  },
 }));
 
 export const Schedule = () => {
@@ -51,6 +59,10 @@ export const Schedule = () => {
               character information.
             </Box>
           </Typography>
+        </Grid>
+
+        <Grid item xs={12}>
+          <div className={classes.divider}></div>
         </Grid>
         <Grid item xs={12}>
           <Typography component="div" variant="h2" gutterBottom>

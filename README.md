@@ -14,6 +14,12 @@ visit the latest version live and in color
 https://tv-bland.vercel.app
 ```
 
+Example tv show
+
+```http
+https://tv-bland.vercel.app/tvshows/66
+```
+
 ## Getting Started
 
 ### Prerequisites
@@ -73,7 +79,17 @@ yarn test
 
 ## Docker
 
-_coming soon ..._
+### Build docker container
+
+```
+docker build -t tv-bland .
+```
+
+### Run docker container
+
+```
+docker run -p 3000:3000 tv-bland
+```
 
 ---
 

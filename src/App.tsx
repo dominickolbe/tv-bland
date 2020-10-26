@@ -11,6 +11,7 @@ import { PageHeader } from "./components/PageHeader";
 import { THEME_IS_DARKMODE } from "./constants";
 import { getTheme } from "./theme";
 import { Schedule } from "./views/Schedule";
+import { TvShow } from "./views/TvShow";
 
 export const App = () => {
   const theme = getTheme(THEME_IS_DARKMODE);
@@ -23,6 +24,9 @@ export const App = () => {
         <Switch>
           <Route path="/" exact>
             <Schedule />
+          </Route>
+          <Route path="/tvshows/:id" exact>
+            <TvShow />
           </Route>
           <Route path="*">
             <Redirect to="/" />

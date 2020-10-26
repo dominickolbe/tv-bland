@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TvShowNotFound /> renders snapshots 1`] = `
+<WithStyles(ForwardRef(Grid))
+  item={true}
+  xs={12}
+>
+  <WithStyles(ForwardRef(Typography))
+    color="textSecondary"
+    component="p"
+    variant="body2"
+  >
+    TvShowNotFound
+  </WithStyles(ForwardRef(Typography))>
+</WithStyles(ForwardRef(Grid))>
+`;

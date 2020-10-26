@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItemRich /> renders snapshots 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))
+    className="makeStyles-listItem-2"
+  >
+    <WithStyles(ForwardRef(ListItemText))
+      className="makeStyles-listItemTextPrimary-3"
+      primary={
+        <WithStyles(ForwardRef(Typography))
+          color="textPrimary"
+          component="div"
+          variant="body1"
+        >
+          Primary text
+        </WithStyles(ForwardRef(Typography))>
+      }
+    />
+    <WithStyles(ForwardRef(ListItemText))
+      className="makeStyles-listItemTextSecondary-4"
+      primary={
+        <WithStyles(ForwardRef(Typography))
+          color="textSecondary"
+          component="div"
+          variant="body2"
+        >
+          Secondary text
+        </WithStyles(ForwardRef(Typography))>
+      }
+    />
+  </WithStyles(ForwardRef(ListItem))>
+  <WithStyles(ForwardRef(Divider))
+    component="li"
+  />
+</Fragment>
+`;
+
+exports[`<ShowInfoList /> renders snapshots 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Typography))
+        component="div"
+        gutterBottom={true}
+        variant="h2"
+      >
+        <Styled(MuiBox)>
+          Show Info
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(List))>
+        <ListItemRich
+          primary="Streamed on"
+          secondary="CBS"
+        />
+        <ListItemRich
+          primary="Schedule"
+          secondary="Thursday"
+        />
+        <ListItemRich
+          primary="Status"
+          secondary="Ended"
+        />
+        <ListItemRich
+          primary="Genre"
+          secondary="Comedy"
+        />
+        <ListItemRich
+          primary="Type"
+          secondary="Scripted"
+        />
+        <ListItemRich
+          primary="Language"
+          secondary="English"
+        />
+      </WithStyles(ForwardRef(List))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

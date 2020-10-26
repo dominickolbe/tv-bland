@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItemStarring /> renders snapshots 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))
+    className="makeStyles-listItem-2"
+  >
+    <WithStyles(ForwardRef(ListItemAvatar))>
+      <WithStyles(ForwardRef(Avatar))
+        alt="Johnny Galecki"
+        src="https://static.tvmaze.com/uploads/images/medium_portrait/175/439562.jpg"
+      />
+    </WithStyles(ForwardRef(ListItemAvatar))>
+    <WithStyles(ForwardRef(ListItemText))
+      primary="Leonard Leakey Hofstadter"
+      secondary="Johnny Galecki"
+    />
+  </WithStyles(ForwardRef(ListItem))>
+  <WithStyles(ForwardRef(Divider))
+    component="li"
+    variant="inset"
+  />
+</Fragment>
+`;
+
+exports[`<StarringList /> renders snapshots 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Typography))
+        component="div"
+        gutterBottom={true}
+        variant="h2"
+      >
+        <Styled(MuiBox)>
+          Starring
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(List))>
+        <ListItemStarring
+          cast={
+            Object {
+              "character": Object {
+                "_links": Object {
+                  "self": Object {
+                    "href": "http://api.tvmaze.com/characters/8867",
+                  },
+                },
+                "id": 8867,
+                "image": Object {
+                  "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439562.jpg",
+                  "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439562.jpg",
+                },
+                "name": "Leonard Leakey Hofstadter",
+                "url": "http://www.tvmaze.com/characters/8867/the-big-bang-theory-leonard-leakey-hofstadter",
+              },
+              "person": Object {
+                "_links": Object {
+                  "self": Object {
+                    "href": "http://api.tvmaze.com/people/8679",
+                  },
+                },
+                "birthday": "1975-04-30",
+                "country": Object {
+                  "code": "BE",
+                  "name": "Belgium",
+                  "timezone": "Europe/Brussels",
+                },
+                "deathday": null,
+                "gender": "Male",
+                "id": 8679,
+                "image": Object {
+                  "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1078.jpg",
+                  "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1078.jpg",
+                },
+                "name": "Johnny Galecki",
+                "url": "http://www.tvmaze.com/people/8679/johnny-galecki",
+              },
+              "self": false,
+              "voice": false,
+            }
+          }
+          key="0"
+        />
+        <ListItemStarring
+          cast={
+            Object {
+              "character": Object {
+                "_links": Object {
+                  "self": Object {
+                    "href": "http://api.tvmaze.com/characters/8868",
+                  },
+                },
+                "id": 8868,
+                "image": Object {
+                  "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439561.jpg",
+                  "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439561.jpg",
+                },
+                "name": "Sheldon Lee Cooper",
+                "url": "http://www.tvmaze.com/characters/8868/the-big-bang-theory-sheldon-lee-cooper",
+              },
+              "person": Object {
+                "_links": Object {
+                  "self": Object {
+                    "href": "http://api.tvmaze.com/people/8680",
+                  },
+                },
+                "birthday": "1973-03-24",
+                "country": Object {
+                  "code": "US",
+                  "name": "United States",
+                  "timezone": "America/New_York",
+                },
+                "deathday": null,
+                "gender": "Male",
+                "id": 8680,
+                "image": Object {
+                  "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/108/272380.jpg",
+                  "original": "http://static.tvmaze.com/uploads/images/original_untouched/108/272380.jpg",
+                },
+                "name": "Jim Parsons",
+                "url": "http://www.tvmaze.com/people/8680/jim-parsons",
+              },
+              "self": false,
+              "voice": false,
+            }
+          }
+          key="1"
+        />
+        <ListItemStarring
+          cast={
+            Object {
+              "character": Object {
+                "_links": Object {
+                  "self": Object {
+                    "href": "http://api.tvmaze.com/characters/8870",
+                  },
+                },
+                "id": 8870,
+                "image": Object {
+                  "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439567.jpg",
+                  "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439567.jpg",
+                },
+                "name": "Howard Joel Wolowitz",
+                "url": "http://www.tvmaze.com/characters/8870/the-big-bang-theory-howard-joel-wolowitz",
+              },
+              "person": Object {
+                "_links": Object {
+                  "self": Object {
+                    "href": "http://api.tvmaze.com/people/8682",
+                  },
+                },
+                "birthday": "1980-12-09",
+                "country": Object {
+                  "code": "US",
+                  "name": "United States",
+                  "timezone": "America/New_York",
+                },
+                "deathday": null,
+                "gender": "Male",
+                "id": 8682,
+                "image": Object {
+                  "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1081.jpg",
+                  "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1081.jpg",
+                },
+                "name": "Simon Helberg",
+                "url": "http://www.tvmaze.com/people/8682/simon-helberg",
+              },
+              "self": false,
+              "voice": false,
+            }
+          }
+          key="2"
+        />
+        <ListItemStarring
+          cast={
+            Object {
+              "character": Object {
+                "_links": Object {
+                  "self": Object {
+                    "href": "http://api.tvmaze.com/characters/8871",
+                  },
+                },
+                "id": 8871,
+                "image": Object {
+                  "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/175/439564.jpg",
+                  "original": "http://static.tvmaze.com/uploads/images/original_untouched/175/439564.jpg",
+                },
+                "name": "Rajesh Ramayan Koothrappali",
+                "url": "http://www.tvmaze.com/characters/8871/the-big-bang-theory-rajesh-ramayan-koothrappali",
+              },
+              "person": Object {
+                "_links": Object {
+                  "self": Object {
+                    "href": "http://api.tvmaze.com/people/8683",
+                  },
+                },
+                "birthday": "1981-04-30",
+                "country": Object {
+                  "code": "GB",
+                  "name": "United Kingdom",
+                  "timezone": "Europe/London",
+                },
+                "deathday": null,
+                "gender": "Male",
+                "id": 8683,
+                "image": Object {
+                  "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/0/1082.jpg",
+                  "original": "http://static.tvmaze.com/uploads/images/original_untouched/0/1082.jpg",
+                },
+                "name": "Kunal Nayyar",
+                "url": "http://www.tvmaze.com/people/8683/kunal-nayyar",
+              },
+              "self": false,
+              "voice": false,
+            }
+          }
+          key="3"
+        />
+      </WithStyles(ForwardRef(List))>
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        item={true}
+        justify="center"
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Link))
+          className="makeStyles-showMore-3"
+          component="button"
+          onClick={[Function]}
+          variant="body2"
+        >
+          Show more
+        </WithStyles(ForwardRef(Link))>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

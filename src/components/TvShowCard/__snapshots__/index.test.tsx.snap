@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TvShowCard /> renders snapshots 1`] = `
+<WithStyles(ForwardRef(Card))
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(CardActionArea))
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(CardMedia))
+      className="makeStyles-tvshowcover-3"
+      image="https://static.tvmaze.com/uploads/images/medium_portrait/173/433868.jpg"
+      title="The Big Bang Theory"
+    />
+  </WithStyles(ForwardRef(CardActionArea))>
+  <WithStyles(ForwardRef(CardContent))>
+    <div
+      className="makeStyles-rating-2"
+    >
+      <Rating
+        value={7.9}
+        withText={false}
+      />
+    </div>
+    <WithStyles(ForwardRef(Typography))
+      color="textSecondary"
+      component="div"
+      variant="subtitle2"
+    >
+      <Styled(MuiBox)
+        fontWeight="fontWeightBold"
+      >
+         
+        The Big Bang Theory
+      </Styled(MuiBox)>
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(CardContent))>
+</WithStyles(ForwardRef(Card))>
+`;

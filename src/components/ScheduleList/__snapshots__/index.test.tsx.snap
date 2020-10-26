@@ -1,0 +1,1271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ScheduleList /> renders snapshots 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={3}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1937214"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1937216",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1937215",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/28426",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt4858114",
+            "thetvdb": 328994,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "Comedy",
+            "Family",
+            "Supernatural",
+          ],
+          "id": 28426,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/119/297712.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/119/297712.jpg",
+          },
+          "language": "English",
+          "name": "Hotel Transylvania: The Series",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 78,
+            "name": "Disney Channel",
+          },
+          "officialSite": "https://disneynow.com/shows/hotel-transylvania",
+          "premiered": "2017-06-25",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 15,
+          "schedule": Object {
+            "days": Array [
+              "Saturday",
+              "Sunday",
+            ],
+            "time": "08:30",
+          },
+          "status": "Running",
+          "summary": "<p>Hotel Transylvania: The Series focuses on the teenage years of Dracula's daughter, Mavis, and her three closest friends Hank N Stein, Pedro and Wendy Blob. With Dracula away on \\"Official Vampire Business,\\" Mavis finally sees her chance to show her father what she can do. With the help of her friends, she decides to put her brilliant ideas of how to run the Hotel into motion, but enter Aunt Lydia, Dracula's older and much meaner sister. While Mavis and friends are ready to let loose and have fun, Aunt Lydia pushes for even more order and tradition at the Hotel.</p>",
+          "type": "Animation",
+          "updated": 1600986346,
+          "url": "http://www.tvmaze.com/shows/28426/hotel-transylvania-the-series",
+          "webChannel": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 83,
+            "name": "DisneyNOW",
+          },
+          "weight": 96,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1937215"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1937216",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1937215",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/28426",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt4858114",
+            "thetvdb": 328994,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "Comedy",
+            "Family",
+            "Supernatural",
+          ],
+          "id": 28426,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/119/297712.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/119/297712.jpg",
+          },
+          "language": "English",
+          "name": "Hotel Transylvania: The Series",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 78,
+            "name": "Disney Channel",
+          },
+          "officialSite": "https://disneynow.com/shows/hotel-transylvania",
+          "premiered": "2017-06-25",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 15,
+          "schedule": Object {
+            "days": Array [
+              "Saturday",
+              "Sunday",
+            ],
+            "time": "08:30",
+          },
+          "status": "Running",
+          "summary": "<p>Hotel Transylvania: The Series focuses on the teenage years of Dracula's daughter, Mavis, and her three closest friends Hank N Stein, Pedro and Wendy Blob. With Dracula away on \\"Official Vampire Business,\\" Mavis finally sees her chance to show her father what she can do. With the help of her friends, she decides to put her brilliant ideas of how to run the Hotel into motion, but enter Aunt Lydia, Dracula's older and much meaner sister. While Mavis and friends are ready to let loose and have fun, Aunt Lydia pushes for even more order and tradition at the Hotel.</p>",
+          "type": "Animation",
+          "updated": 1600986346,
+          "url": "http://www.tvmaze.com/shows/28426/hotel-transylvania-the-series",
+          "webChannel": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 83,
+            "name": "DisneyNOW",
+          },
+          "weight": 96,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1954167"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1954168",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1954167",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/15779",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt0165001",
+            "thetvdb": 264537,
+            "tvrage": null,
+          },
+          "genres": Array [],
+          "id": 15779,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/237/592585.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/237/592585.jpg",
+          },
+          "language": "English",
+          "name": "CBS News Sunday Morning",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 2,
+            "name": "CBS",
+          },
+          "officialSite": "http://www.cbsnews.com/sunday-morning/",
+          "premiered": "1979-01-28",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 90,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "09:00",
+          },
+          "status": "Running",
+          "summary": "<p><b>CBS News Sunday Morning</b> is a early morning news and magazine program that airs on Sunday's on CBS.</p>",
+          "type": "News",
+          "updated": 1603327137,
+          "url": "http://www.tvmaze.com/shows/15779/cbs-news-sunday-morning",
+          "webChannel": null,
+          "weight": 82,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1949480"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1953544",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1949480",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/31986",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt1239156",
+            "thetvdb": null,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "Sports",
+          ],
+          "id": 31986,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/127/319991.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/127/319991.jpg",
+          },
+          "language": "English",
+          "name": "Sunday NFL Countdown",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 39,
+            "name": "ESPN",
+          },
+          "officialSite": "http://espnmediazone.com/us/press-releases/2017/07/espn-announces-new-sunday-morning-fall-schedule/",
+          "premiered": "1985-09-07",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 180,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "10:00",
+          },
+          "status": "Running",
+          "summary": "<p><b>Sunday NFL Countdown</b> is a sports talk show that airs Sunday mornings during Football season where a panel of NFL experts discuss and breakdown the upcoming weekend games. This show's former names include <i>NFL GameDay</i> from 1985 to 1995, <i>NFL Countdown</i> from 1996 to 1997, and since 1998, <i>Sunday NFL Countdown. </i>This Sunday pregame talf show debuted in 1985 and soon became a signature ESPN series behind host Chris Berman, who was at the helm for three decades. Taking over that role is Samantha Ponder, a one-time college football reporter and contributor. She introduces the features and directs the storylines associated with the day's games, joined by a roster of analysts highlighted by ex-NFL players. Chris Mortensen and Adam Schefter deliver breaking news and injury updates, while reporters at game sites set the scenes.</p>",
+          "type": "Talk Show",
+          "updated": 1603233206,
+          "url": "http://www.tvmaze.com/shows/31986/sunday-nfl-countdown",
+          "webChannel": null,
+          "weight": 23,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1957581"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1957582",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/40260",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt9433014",
+            "thetvdb": 356827,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "Comedy",
+            "Adventure",
+            "Children",
+          ],
+          "id": 40260,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/179/447727.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/179/447727.jpg",
+          },
+          "language": "English",
+          "name": "Abby Hatcher",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 206,
+            "name": "Nick Jr.",
+          },
+          "officialSite": "http://www.nickjr.com",
+          "premiered": "2019-01-01",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 15,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "10:00",
+          },
+          "status": "Running",
+          "summary": "<p>Seven-year-old Abby Hatcher and her Fuzzly friend Bozzly go on adventures to fix the Fuzzly's problems at her hotel.</p>",
+          "type": "Animation",
+          "updated": 1603663609,
+          "url": "http://www.tvmaze.com/shows/40260/abby-hatcher",
+          "webChannel": null,
+          "weight": 71,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1957582"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1957582",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/40260",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt9433014",
+            "thetvdb": 356827,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "Comedy",
+            "Adventure",
+            "Children",
+          ],
+          "id": 40260,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/179/447727.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/179/447727.jpg",
+          },
+          "language": "English",
+          "name": "Abby Hatcher",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 206,
+            "name": "Nick Jr.",
+          },
+          "officialSite": "http://www.nickjr.com",
+          "premiered": "2019-01-01",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 15,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "10:00",
+          },
+          "status": "Running",
+          "summary": "<p>Seven-year-old Abby Hatcher and her Fuzzly friend Bozzly go on adventures to fix the Fuzzly's problems at her hotel.</p>",
+          "type": "Animation",
+          "updated": 1603663609,
+          "url": "http://www.tvmaze.com/shows/40260/abby-hatcher",
+          "webChannel": null,
+          "weight": 71,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1953549"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1953551",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1953549",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/36765",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt8510610",
+            "thetvdb": 349388,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "Food",
+          ],
+          "id": 36765,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/158/396187.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/158/396187.jpg",
+          },
+          "language": "English",
+          "name": "Girl Meets Farm",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 81,
+            "name": "Food Network",
+          },
+          "officialSite": "https://www.foodnetwork.com/shows/girl-meets-farm",
+          "premiered": "2018-06-24",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 30,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "11:00",
+          },
+          "status": "Running",
+          "summary": "<p>A transplant from city to farm life who has embraced her new home, Molly Yeh welcomes viewers to her cozy farmhouse on the Minnesota/North Dakota border and shares her love for the country life. The series celebrates the very best of Molly's food, with recipes inspired by her Jewish and Chinese heritage and a taste of the Midwest.</p>",
+          "type": "Reality",
+          "updated": 1603236326,
+          "url": "http://www.tvmaze.com/shows/36765/girl-meets-farm",
+          "webChannel": null,
+          "weight": 93,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1949481"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1953543",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1949481",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/10847",
+            },
+          },
+          "externals": Object {
+            "imdb": null,
+            "thetvdb": null,
+            "tvrage": null,
+          },
+          "genres": Array [],
+          "id": 10847,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/36/91454.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/36/91454.jpg",
+          },
+          "language": "English",
+          "name": "FOX NFL Sunday",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 4,
+            "name": "FOX",
+          },
+          "officialSite": "http://www.foxsports.com/presspass/shows-properties/show/fox-nfl-sunday",
+          "premiered": "1994-09-04",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 60,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "12:00",
+          },
+          "status": "Running",
+          "summary": "<p><b>Fox NFL Sunday</b> is an American sports-talk television program on Fox that debuted on September 4, 1994, and serves as the pre-game show for the network's National Football League game telecasts under the <i>NFL on Fox</i> brand. An audio simulcast of the program airs on sister radio network Fox Sports Radio, which is distributed by Premiere Radio Networks. As of 2014, the program has won four Emmy Awards. <i>Fox NFL Sunday</i> debuted on September 4, 1994, when Fox inaugurated its NFL game broadcasts through the network's recently acquired broadcast rights to the National Football Conference; it was originally hosted by James Brown, Terry Bradshaw, Howie Long and Jimmy Johnson (both Brown and Bradshaw had joined the network from CBS to help helm Fox's NFL coverage). The program was notable in being the first hour-long NFL pregame show on a broadcast television network; network pregame programs that existed beforehand, such as CBS' <i>The NFL Today</i> or NBC's <i>NFL Live!</i>, aired as 30-minute broadcasts. Fox's show also adopted a looser, more irreverent approach than its predecessors in order to also appeal to the network's younger-skewing audiences. During Johnson's initial season on <i>Fox NFL Sunday</i>, he would often join the show from his home in Florida. There was much speculation that Jimmy Johnson would return to coaching during the first year of the program's run. Prior to the end of the year, Johnson made an \\"announcement,\\" saying he was happy with his new career in broadcasting. But in 1996, he left the program to become head coach of the Miami Dolphins; Ronnie Lott was brought in to succeed him, and stayed with the program for two seasons.</p>",
+          "type": "Talk Show",
+          "updated": 1603233090,
+          "url": "http://www.tvmaze.com/shows/10847/fox-nfl-sunday",
+          "webChannel": null,
+          "weight": 0,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1945058"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1945058",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/10268",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt0487001",
+            "thetvdb": 286069,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "Sports",
+          ],
+          "id": 10268,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/34/87202.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/34/87202.jpg",
+          },
+          "language": "English",
+          "name": "NFL Primetime",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 39,
+            "name": "ESPN",
+          },
+          "officialSite": "http://espn.go.com/watchespn/index/_/id/371842/nfl-primetime",
+          "premiered": "1992-09-06",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 60,
+          "schedule": Object {
+            "days": Array [
+              "Monday",
+            ],
+            "time": "13:30",
+          },
+          "status": "Running",
+          "summary": "<p>This longtime ESPN staple doesn't air in prime time anymore, and the original tag team of Chris Berman and Tom Jackson are no longer involved. But it lives on, albeit in a slightly different form, with host Trey Wingo presenting a shorter-form highlights package of Sunday's NFL action coupled with more in-depth analysis from former players Merril Hoge and Tim Hasselbeck.</p>",
+          "type": "Talk Show",
+          "updated": 1602081968,
+          "url": "http://www.tvmaze.com/shows/10268/nfl-primetime",
+          "webChannel": null,
+          "weight": 0,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1911090"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1911091",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1911090",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/32095",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt0249044",
+            "thetvdb": 266718,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "Adult",
+          ],
+          "id": 32095,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/128/321820.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/128/321820.jpg",
+          },
+          "language": "English",
+          "name": "Naked News",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 1035,
+            "name": "Playboy TV",
+          },
+          "officialSite": null,
+          "premiered": "1999-12-13",
+          "rating": Object {
+            "average": 7.7,
+          },
+          "runtime": 25,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "17:00",
+          },
+          "status": "Running",
+          "summary": "<p><b>Naked News</b>, billing itself as \\"the program with nothing to hide\\", is a subscription website featuring a real television newscast. The show is prepared in Toronto and runs daily, with 25-minute episodes 6 days per week. The female anchors read the news fully nude or strip as they present their news segments. Naked News TV is its offshoot pay-per-view or subscription service. Naked News also aired briefly as a late night television series on Citytv Toronto.</p>",
+          "type": "News",
+          "updated": 1597446595,
+          "url": "http://www.tvmaze.com/shows/32095/naked-news",
+          "webChannel": null,
+          "weight": 98,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1950273"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1950274",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1950273",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/974",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt0429434",
+            "thetvdb": 74921,
+            "tvrage": 5233,
+          },
+          "genres": Array [],
+          "id": 974,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/205/513102.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/205/513102.jpg",
+          },
+          "language": "English",
+          "name": "Snapped",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 79,
+            "name": "Oxygen",
+          },
+          "officialSite": "http://www.oxygen.com/snapped",
+          "premiered": "2004-08-06",
+          "rating": Object {
+            "average": 7.2,
+          },
+          "runtime": 60,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "18:00",
+          },
+          "status": "Running",
+          "summary": "<p>Each year, approximately 16,000 people are murdered in the United States. 7% of the killers are female.*</p><p>Who are these women and what drives them to kill? Oxygen's hit true crime series, <i>Snapped</i>, profiles the fascinating cases of women accused of murder. Did they really do it? And, if they did, why? Whether the motivation was revenge against a cheating husband, the promise of a hefty insurance payoff, or putting an end to years of abuse, the reasons are as varied as the women themselves. From socialites to secretaries, female killers share one thing in common: at some point, they all snapped. <b>Snapped </b>is produced in conjunction with Jupiter Entertainment, the creators of <i>City Confidential</i> and <i>Dominick Dunne's Power</i>, <i>Privilege &amp; Justice</i>, and narrated by veteran news reporter Sharon Martin. Each episode of <i>Snapped</i> chronicles the life of a woman who has been charged with murder. These shocking but true stories turn common assumptions about crime and criminals upside down, and prove that even the most unlikely suspects can be capable of murder.</p>",
+          "type": "Documentary",
+          "updated": 1602777647,
+          "url": "http://www.tvmaze.com/shows/974/snapped",
+          "webChannel": null,
+          "weight": 95,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1951565"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1951566",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1951565",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/9659",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt0184090",
+            "thetvdb": 290734,
+            "tvrage": null,
+          },
+          "genres": Array [],
+          "id": 9659,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/33/83939.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/33/83939.jpg",
+          },
+          "language": "English",
+          "name": "ABC World News Tonight with David Muir",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 3,
+            "name": "ABC",
+          },
+          "officialSite": "http://abc.go.com/shows/world-news-tonight",
+          "premiered": "2014-09-01",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 30,
+          "schedule": Object {
+            "days": Array [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday",
+              "Sunday",
+            ],
+            "time": "18:30",
+          },
+          "status": "Running",
+          "summary": "<p><b>ABC World News Tonight with David Muir</b> is the News division's flagship broadcast. With unparalleled reporting, World News empowers viewers each day by providing the latest information and analysis of major news events from around the country and the world. Anchored by David Muir, the broadcast draws upon an award-winning team of correspondents, producers and off-air reporters.</p>",
+          "type": "News",
+          "updated": 1603664109,
+          "url": "http://www.tvmaze.com/shows/9659/abc-world-news-tonight-with-david-muir",
+          "webChannel": null,
+          "weight": 90,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1928506"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1928506",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/2855",
+            },
+          },
+          "externals": Object {
+            "imdb": null,
+            "thetvdb": null,
+            "tvrage": null,
+          },
+          "genres": Array [],
+          "id": 2855,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/114/285019.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/114/285019.jpg",
+          },
+          "language": "English",
+          "name": "WWE PPV on WWE Network",
+          "network": null,
+          "officialSite": "http://www.wwe.com/events",
+          "premiered": "2014-04-06",
+          "rating": Object {
+            "average": 8,
+          },
+          "runtime": 240,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "",
+          },
+          "status": "Running",
+          "summary": "<p>Beginning with the 2014 Extreme Rules Pay-Per-View on 4 May 2014 the WWE began airing all of their Wrestling Pay-Per-Views exclusively on the WWE Network. Subscribers who pay the $9.95 monthly fee will be able to view any Pay-Per-Views past, present and in the future exclusively on the WWE Network at no additional charge as long as their monthly fees are paid up-to-date.</p>",
+          "type": "Sports",
+          "updated": 1601259323,
+          "url": "http://www.tvmaze.com/shows/2855/wwe-ppv-on-wwe-network",
+          "webChannel": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 15,
+            "name": "WWE Network",
+          },
+          "weight": 83,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1949482"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1953545",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1949482",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/10043",
+            },
+          },
+          "externals": Object {
+            "imdb": null,
+            "thetvdb": null,
+            "tvrage": null,
+          },
+          "genres": Array [],
+          "id": 10043,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/34/85826.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/34/85826.jpg",
+          },
+          "language": "English",
+          "name": "Football Night in America",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 1,
+            "name": "NBC",
+          },
+          "officialSite": "http://www.nbcsports.com/video/show/football-night-america",
+          "premiered": "2006-09-10",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 80,
+          "schedule": Object {
+            "days": Array [
+              "Thursday",
+              "Sunday",
+            ],
+            "time": "19:00",
+          },
+          "status": "Running",
+          "summary": "<p><b>Football Night in America</b> is an American pre-game show that is broadcast on NBC, preceding its broadcasts of Sunday night and Wild Card Saturday National Football League (NFL) games. The program debuted on September 10, 2006, when the network inaugurated its Sunday prime time game package. The 80-minute program airs live at 7:00 p.m. Eastern Time, and is broadcast from Studio 1 at NBC Sports Headquarters in Stamford, Connecticut. Prior to 2012, <i>Football Night in America</i> originally broadcast from the GE Building in New York City, first out of Studio 8G from 2006 to 2012 and in 2013, from Studio 8H, where <i>Saturday Night Live</i> is also taped.</p><p>The program's title closely resembles CBC Television's long-running <i>Hockey Night in Canada</i> franchise. In addition, NBC – along with ABC and Major League Baseball in a joint effort called \\"The Baseball Network\\" – had previously aired baseball games as the similarly titled <i>Baseball Night in America</i> from 1994 to 1995.</p>",
+          "type": "Talk Show",
+          "updated": 1603233357,
+          "url": "http://www.tvmaze.com/shows/10043/football-night-in-america",
+          "webChannel": null,
+          "weight": 50,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1950351"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1953298",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1950351",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/5889",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt0098740",
+            "thetvdb": 76235,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "Comedy",
+            "Family",
+          ],
+          "id": 5889,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/210/527006.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/210/527006.jpg",
+          },
+          "language": "English",
+          "name": "America's Funniest Home Videos",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 3,
+            "name": "ABC",
+          },
+          "officialSite": "http://abc.go.com/shows/americas-funniest-home-videos",
+          "premiered": "1990-01-14",
+          "rating": Object {
+            "average": 6,
+          },
+          "runtime": 60,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "19:00",
+          },
+          "status": "Running",
+          "summary": "<p>ABC's longest-running primetime entertainment show, <b>America's Funniest Home Videos</b>, returns for season 30 this fall with the same mission -- giving families something genuinely funny to enjoy together on Sunday nights. </p><p>\\"AFV,\\" the longest-running primetime entertainment show in ABC history, returns for season 30 with the same mission - to provide viewers with hysterical moments that fly by at a dizzying pace.</p>",
+          "type": "Reality",
+          "updated": 1603656908,
+          "url": "http://www.tvmaze.com/shows/5889/americas-funniest-home-videos",
+          "webChannel": null,
+          "weight": 95,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1956519"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1956519",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/4022",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt0123338",
+            "thetvdb": 73290,
+            "tvrage": 7101,
+          },
+          "genres": Array [],
+          "id": 4022,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/237/592639.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/237/592639.jpg",
+          },
+          "language": "English",
+          "name": "60 Minutes",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 2,
+            "name": "CBS",
+          },
+          "officialSite": "http://www.cbsnews.com/60-minutes/",
+          "premiered": "1968-09-24",
+          "rating": Object {
+            "average": 8.3,
+          },
+          "runtime": 60,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "19:00",
+          },
+          "status": "Running",
+          "summary": "<p><b>60 Minutes</b> has been on the air since 1968, beginning on a Tuesday, but spending most of its time on Sundays, where it remains today. This popular news magazine provides both hard hitting investigations, interviews and features, along with people in the news and current events. 60 Minutes has set unprecedented records in the Nielsen's ratings with a number 1 rating, five times, making it among the most successful TV programs in all of television history. This series has won more Emmy awards than any other news program and in 2003, Don Hewitt, the creator (back in 1968), was awarded the Lifetime Achievement Emmy, along with the 60 Minute correspondents. Added to the 11 Peabody awards, this phenomenally long-lived series has collected 78 awards up to the 2005 season and remains among the viewers top choice for news magazine features.</p>",
+          "type": "News",
+          "updated": 1603562643,
+          "url": "http://www.tvmaze.com/shows/4022/60-minutes",
+          "webChannel": null,
+          "weight": 97,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1924010"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1924010",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1924009",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/34434",
+            },
+          },
+          "externals": Object {
+            "imdb": null,
+            "thetvdb": 343280,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "Music",
+          ],
+          "id": 34434,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/142/356957.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/142/356957.jpg",
+          },
+          "language": "English",
+          "name": "The Top Ten Revealed",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 170,
+            "name": "AXS TV",
+          },
+          "officialSite": "http://www.axs.tv/originals/the-top-ten-revealed/",
+          "premiered": "2018-02-11",
+          "rating": Object {
+            "average": null,
+          },
+          "runtime": 30,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "20:00",
+          },
+          "status": "Running",
+          "summary": "<p><b>The Top Ten Revealed</b> puts the spotlight on the most influential songs, bands, and musicians in the history of rock n' roll. Katie Daryl sits down with a rotating panel of music icons and experts every week for a witty, edgy, and insightful discussion. She examines the figures and the music that have left an indelible mark on the rock n' roll scene.</p>",
+          "type": "Talk Show",
+          "updated": 1603205426,
+          "url": "http://www.tvmaze.com/shows/34434/the-top-ten-revealed",
+          "webChannel": null,
+          "weight": 58,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    key="1928900"
+    md={2}
+    sm={4}
+    xs={6}
+  >
+    <TvShowCard
+      onClick={[MockFunction]}
+      tvshow={
+        Object {
+          "_links": Object {
+            "nextepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1928900",
+            },
+            "previousepisode": Object {
+              "href": "http://api.tvmaze.com/episodes/1928899",
+            },
+            "self": Object {
+              "href": "http://api.tvmaze.com/shows/11492",
+            },
+          },
+          "externals": Object {
+            "imdb": "tt5351176",
+            "thetvdb": 304498,
+            "tvrage": null,
+          },
+          "genres": Array [
+            "History",
+          ],
+          "id": 11492,
+          "image": Object {
+            "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/240/602052.jpg",
+            "original": "http://static.tvmaze.com/uploads/images/original_untouched/240/602052.jpg",
+          },
+          "language": "English",
+          "name": "The Circus",
+          "network": Object {
+            "country": Object {
+              "code": "US",
+              "name": "United States",
+              "timezone": "America/New_York",
+            },
+            "id": 9,
+            "name": "Showtime",
+          },
+          "officialSite": "http://www.sho.com/sho/the-circus-inside-the-greatest-political-show-on-earth/home",
+          "premiered": "2016-01-17",
+          "rating": Object {
+            "average": 7,
+          },
+          "runtime": 30,
+          "schedule": Object {
+            "days": Array [
+              "Sunday",
+            ],
+            "time": "20:00",
+          },
+          "status": "Running",
+          "summary": "<p>Come one, come all to <b>The Circus</b>. This documentary series pulls back the curtain on the Trump era of presidential politics, revealing the intense, inspiring and infuriating stories behind the headlines. Key characters and events are presented in real time, as they are happening. The Circus is a non-partisan, never-before-attempted take on one of the most fascinating and consequential political periods in modern American history.</p>",
+          "type": "Documentary",
+          "updated": 1603650426,
+          "url": "http://www.tvmaze.com/shows/11492/the-circus",
+          "webChannel": null,
+          "weight": 98,
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    item={true}
+    justify="center"
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Link))
+      className="makeStyles-showMore-1"
+      component="button"
+      onClick={[Function]}
+      variant="body2"
+    >
+      Show more
+    </WithStyles(ForwardRef(Link))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

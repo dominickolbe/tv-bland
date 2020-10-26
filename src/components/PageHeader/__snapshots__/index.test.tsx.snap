@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageHeader /> renders snapshots 1`] = `
+<WithStyles(ForwardRef(Container))
+  className="makeStyles-root-1"
+  maxWidth="lg"
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={8}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Typography))
+        component="div"
+        variant="h2"
+      >
+        <Styled(MuiBox)
+          fontWeight="fontWeightBold"
+        >
+          TV Bland
+        </Styled(MuiBox)>
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Container))>
+`;

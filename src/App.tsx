@@ -7,6 +7,7 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
+import { PageHeader } from "./components/PageHeader";
 import { THEME_IS_DARKMODE } from "./constants";
 import { getTheme } from "./theme";
 import { Schedule } from "./views/Schedule";
@@ -18,6 +19,7 @@ export const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
+        <PageHeader />
         <Switch>
           <Route path="/" exact>
             <Schedule />

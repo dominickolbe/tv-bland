@@ -13,7 +13,6 @@ import { ApiController } from "../../utils/ApiController";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    paddingTop: theme.spacing(4),
     paddingBottom: theme.spacing(4),
   },
 }));

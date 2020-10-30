@@ -91,6 +91,37 @@ export const People = () => {
                     <Box>{people.name}</Box>
                   </Typography>
                 </Grid>
+                <Grid item xs={12}>
+                  <Grid container spacing={4}>
+                    <Grid item xs={6} sm={6} md={3}>
+                      <Typography component="div" variant="h3">
+                        <Box fontWeight="fontWeightMedium">Country:</Box>
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        component="p"
+                      >
+                        {people.country?.name || "N/A"}
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={6} sm={6} md={3}>
+                      <Typography component="div" variant="h3">
+                        <Box fontWeight="fontWeightMedium">Birthday:</Box>
+                      </Typography>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        component="p"
+                      >
+                        {people.birthday || "N/A"}{" "}
+                        {people.deathday !== null
+                          ? `(${people.deathday})`
+                          : null}
+                      </Typography>
+                    </Grid>
+                  </Grid>
+                </Grid>
               </Grid>
             </Grid>
           </Grid>

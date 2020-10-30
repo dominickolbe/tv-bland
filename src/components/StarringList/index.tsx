@@ -68,7 +68,7 @@ export const StarringList = (props: { cast: CastType[] }) => {
       <Grid container>
         <Grid item xs={12}>
           <Typography component="div" variant="h2" gutterBottom>
-            <Box>Starring</Box>
+            <Box fontWeight="fontWeightMedium">Starring:</Box>
           </Typography>
         </Grid>
         <Grid item xs={12}>

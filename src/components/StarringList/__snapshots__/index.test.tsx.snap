@@ -3,7 +3,9 @@
 exports[`<ListItemStarring /> renders snapshots 1`] = `
 <Fragment>
   <WithStyles(ForwardRef(ListItem))
+    button={true}
     className="makeStyles-listItem-2"
+    onClick={[Function]}
   >
     <WithStyles(ForwardRef(ListItemAvatar))>
       <WithStyles(ForwardRef(Avatar))
@@ -39,8 +41,10 @@ exports[`<StarringList /> renders snapshots 1`] = `
         gutterBottom={true}
         variant="h2"
       >
-        <Styled(MuiBox)>
-          Starring
+        <Styled(MuiBox)
+          fontWeight="fontWeightMedium"
+        >
+          Starring:
         </Styled(MuiBox)>
       </WithStyles(ForwardRef(Typography))>
     </WithStyles(ForwardRef(Grid))>

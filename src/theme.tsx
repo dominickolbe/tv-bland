@@ -36,5 +36,17 @@ export const getTheme = () => {
       fontSize: "20px",
     },
   };
+  theme.typography.h3 = {
+    fontWeight: "normal",
+    [theme.breakpoints.up("xs")]: {
+      fontSize: "16px",
+    },
+    [theme.breakpoints.up("sm")]: {
+      fontSize: "16px",
+    },
+    [theme.breakpoints.up("md")]: {
+      fontSize: "18px",
+    },
+  };
   return theme;
 };

@@ -2,6 +2,7 @@
 
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
+import Divider from "@material-ui/core/Divider";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import { makeStyles } from "@material-ui/core/styles";
@@ -11,8 +12,8 @@ import { useParams } from "react-router-dom";
 import { useTitle } from "react-use";
 import { FullScreenLoader } from "../../components/FullScreenLoader";
 import { Rating } from "../../components/Rating";
-import { ShowInfoList } from "../../components/ShowInfoList";
 import { StarringList } from "../../components/StarringList";
+import { TvShowInfoWrapper } from "../../components/TvShowInfoWrapper";
 import { TvShowNotFound } from "../../components/TvShowNotFound";
 import { FALLBACK_COVER_IMG } from "../../constants";
 import { TvShowType } from "../../models";
@@ -22,9 +23,9 @@ const useStyles = makeStyles((theme) => ({
   root: {
     paddingBottom: theme.spacing(4),
   },
-  divider: {
+  spacing: {
     [theme.breakpoints.up("sm")]: {
-      marginBottom: 50,
+      marginBottom: 25,
     },
   },
   ratingContainer: {
@@ -71,7 +72,7 @@ export const TvShow = () => {
   return (
     <Container className={classes.root}>
       <Grid container spacing={2}>
-        <Grid item xs={12}>
+        <Grid item xs={12} className={classes.spacing}>
           <Grid container spacing={4}>
             <Grid item xs={12} sm={6} md={3}>
               <Paper elevation={5}>
@@ -118,19 +119,19 @@ export const TvShow = () => {
         </Grid>
 
         <Grid item xs={12}>
-          <div className={classes.divider}></div>
+          <Divider />
         </Grid>
 
         <Grid item xs={12}>
-          <Grid container spacing={4}>
-            <Grid item xs={12} sm={6}>
-              <ShowInfoList tvshow={tvshow} />
-            </Grid>
+          <TvShowInfoWrapper tvshow={tvshow} />
+        </Grid>
 
-            <Grid item xs={12} sm={6}>
-              <StarringList cast={tvshow._embedded?.cast ?? []} />
-            </Grid>
-          </Grid>
+        <Grid item xs={12} className={classes.spacing}>
+          <Divider />
+        </Grid>
+
+        <Grid item xs={12}>
+          <StarringList cast={tvshow._embedded?.cast ?? []} />
         </Grid>
       </Grid>
     </Container>

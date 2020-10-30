@@ -66,7 +66,7 @@ export const Schedule = () => {
         </Grid>
         <Grid item xs={12}>
           <Typography component="div" variant="h2" gutterBottom>
-            <Box fontWeight="fontWeightBold">Last Added Shows</Box>
+            <Box fontWeight="fontWeightBold">Last Added Episodes</Box>
           </Typography>
         </Grid>
         <Grid item xs={12}>

@@ -3,7 +3,7 @@ import Link from "@material-ui/core/Link";
 import { makeStyles } from "@material-ui/core/styles";
 import React, { useState } from "react";
 import { ScheduleType } from "../../models";
-import { TvShowCard } from "../TvShowCard";
+import { TvShowEpisodeCard } from "../TvShowEpisodeCard";
 
 const RESULTS_PER_PAGE_DEFAULT = 18;
 
@@ -29,7 +29,7 @@ export const ScheduleList = (props: {
       {schedule.slice(0, resultsPerPage).map((item) => {
         return (
           <Grid item xs={6} sm={4} md={2} key={item.id}>
-            <TvShowCard tvshow={item.show} onClick={onClickCard} />
+            <TvShowEpisodeCard scheduleItem={item} onClick={onClickCard} />
           </Grid>
         );
       })}

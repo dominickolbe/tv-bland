@@ -8,19 +8,23 @@ import {
   Switch,
 } from "react-router-dom";
 import { PageHeader } from "./components/PageHeader";
+import { useStore } from "./store";
 import { getTheme } from "./theme";
 import { People } from "./views/People";
 import { Schedule } from "./views/Schedule";
 import { TvShow } from "./views/TvShow";
 
 export const App = () => {
-  const theme = getTheme();
+  const store = useStore();
+  const theme = getTheme(store.state.theme.darkmode);
+
+  const onClickToggleTheme = () => store.actions.toggleAppTheme();
 
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
-        <PageHeader />
+        <PageHeader onClickToggleTheme={onClickToggleTheme} />
         <Switch>
           <Route path="/" exact>
             <Schedule />

@@ -6,12 +6,13 @@ exports[`<PageHeader /> renders snapshots 1`] = `
   maxWidth="lg"
 >
   <WithStyles(ForwardRef(Grid))
+    alignItems="center"
     container={true}
   >
     <WithStyles(ForwardRef(Grid))
       item={true}
-      md={8}
-      xs={12}
+      md={6}
+      xs={6}
     >
       <WithStyles(ForwardRef(Typography))
         className="makeStyles-title-2"
@@ -25,6 +26,20 @@ exports[`<PageHeader /> renders snapshots 1`] = `
           TV Bland
         </Styled(MuiBox)>
       </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+      justify="flex-end"
+      md={6}
+      xs={6}
+    >
+      <WithStyles(ForwardRef(IconButton))
+        color="primary"
+        onClick={[Function]}
+      >
+        <Brightness4Icon />
+      </WithStyles(ForwardRef(IconButton))>
     </WithStyles(ForwardRef(Grid))>
   </WithStyles(ForwardRef(Grid))>
 </WithStyles(ForwardRef(Container))>

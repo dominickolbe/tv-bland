@@ -4,7 +4,7 @@ import { PageHeader } from "./";
 
 describe("<PageHeader />", () => {
   it("renders snapshots", () => {
-    const wrapper = shallow(<PageHeader />);
+    const wrapper = shallow(<PageHeader onClickToggleTheme={jest.fn()} />);
     expect(wrapper).toMatchSnapshot();
   });
 });

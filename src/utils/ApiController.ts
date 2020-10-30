@@ -7,7 +7,7 @@ export const ApiController = {
   get: {
     schedule: async () => {
       try {
-        const response = await axios.get(`${API_BASE}/schedule`);
+        const response = await axios.get(`${API_BASE}/schedule?country=GB`);
         const result = RtSchedule.check(response.data);
         return createOk(result);
       } catch (error) {

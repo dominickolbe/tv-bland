@@ -1,3 +1,5 @@
+/* eslint-disable eqeqeq */
+
 import { OnInitialize } from "overmind";
 
 export const onInitialize: OnInitialize = async (

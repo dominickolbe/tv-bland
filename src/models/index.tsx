@@ -1,5 +1,25 @@
 import * as rt from "runtypes";
 
+export const RtPeople = rt.Record({
+  id: rt.Number,
+  name: rt.String,
+  birthday: rt.String.Or(rt.Null),
+  gender: rt.String.Or(rt.Null),
+  deathday: rt.String.Or(rt.Null),
+  image: rt
+    .Record({
+      medium: rt.String,
+      original: rt.String,
+    })
+    .Or(rt.Null),
+  country: rt
+    .Record({
+      name: rt.String,
+    })
+    .Or(rt.Null),
+});
+export type PeopleType = rt.Static<typeof RtPeople>;
+
 export const RtSeason = rt.Record({
   id: rt.Number,
   name: rt.String,

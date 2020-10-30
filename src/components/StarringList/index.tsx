@@ -10,6 +10,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import { FALLBACK_COVER_IMG } from "../../constants";
 import { CastType } from "../../models";
 
@@ -17,9 +18,7 @@ const RESULTS_PER_PAGE_DEFAULT = 4;
 
 const useStyles = makeStyles(() => ({
   root: {},
-  listItem: {
-    paddingLeft: 0,
-  },
+  listItem: {},
   showMore: {
     margin: "15px 0",
   },
@@ -30,9 +29,15 @@ export const ListItemStarring = (props: { cast: CastType }) => {
   const {
     cast: { character, person },
   } = props;
+  const history = useHistory();
+
   return (
     <>
-      <ListItem className={classes.listItem}>
+      <ListItem
+        className={classes.listItem}
+        button
+        onClick={() => history.push(`/people/${person.id}`)}
+      >
         <ListItemAvatar>
           <Avatar
             alt={person.name}

@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import { PageHeader } from "./components/PageHeader";
 import { getTheme } from "./theme";
+import { People } from "./views/People";
 import { Schedule } from "./views/Schedule";
 import { TvShow } from "./views/TvShow";
 
@@ -26,6 +27,9 @@ export const App = () => {
           </Route>
           <Route path="/tvshows/:id" exact>
             <TvShow />
+          </Route>
+          <Route path="/people/:id" exact>
+            <People />
           </Route>
           <Route path="*">
             <Redirect to="/" />

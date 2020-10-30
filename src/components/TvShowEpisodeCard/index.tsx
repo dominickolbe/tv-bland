@@ -50,10 +50,15 @@ export const TvShowEpisodeCard = (props: {
         <div className={classes.rating}>
           <Rating value={scheduleItem.show.rating?.average} withText={false} />
         </div>
-        <Typography variant="body1" color="textSecondary" gutterBottom>
+        <Typography
+          variant="body1"
+          color="textSecondary"
+          component="div"
+          gutterBottom
+        >
           <Box>{trimString(scheduleItem.show.name, 30)}</Box>
         </Typography>
-        <Typography variant="body2" color="textSecondary">
+        <Typography variant="body2" color="textSecondary" component="div">
           <Box>{trimString(scheduleItem.name, 50)}</Box>
         </Typography>
       </CardContent>

@@ -44,7 +44,7 @@ export const TvShowCard = (props: {
           <Rating value={tvshow.rating?.average} withText={false} />
         </div>
         <Typography variant="body2" color="textSecondary" component="div">
-          <Box> {tvshow.name}</Box>
+          <Box>{tvshow.name}</Box>
         </Typography>
       </CardContent>
     </Card>

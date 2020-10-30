@@ -1,5 +1,6 @@
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
+import Divider from "@material-ui/core/Divider";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
@@ -8,6 +9,7 @@ import { useHistory } from "react-router-dom";
 import { useTitle } from "react-use";
 import { FullScreenLoader } from "../../components/FullScreenLoader";
 import { ScheduleList } from "../../components/ScheduleList";
+import { SearchWrapper } from "../../components/SearchWrapper";
 import { ScheduleType } from "../../models";
 import { ApiController } from "../../utils/ApiController";
 
@@ -17,15 +19,12 @@ const useStyles = makeStyles((theme) => ({
   },
   divider: {
     [theme.breakpoints.up("xs")]: {
-      marginBottom: 30,
-    },
-    [theme.breakpoints.up("sm")]: {
-      marginBottom: 50,
+      marginBottom: 18,
     },
   },
 }));
 
-export const Schedule = () => {
+export const Start = () => {
   const classes = useStyles();
   const history = useHistory();
 
@@ -43,15 +42,14 @@ export const Schedule = () => {
     getSchedule();
   }, []);
 
-  // Update page title
-  useTitle("Schedule");
+  useTitle("TV Bland");
 
   if (loading) return <FullScreenLoader />;
 
   return (
     <Container maxWidth="lg" className={classes.root}>
-      <Grid container spacing={2}>
-        <Grid item xs={12} md={8}>
+      <Grid container spacing={4}>
+        <Grid item xs={12}>
           <Typography component="div" variant="h2">
             <Box>TV Show and web series database.</Box>
             <Box>
@@ -62,8 +60,13 @@ export const Schedule = () => {
         </Grid>
 
         <Grid item xs={12}>
-          <div className={classes.divider}></div>
+          <SearchWrapper onClickCard={(id) => history.push(`/tvshows/${id}`)} />
         </Grid>
+
+        <Grid item xs={12}>
+          <Divider />
+        </Grid>
+
         <Grid item xs={12}>
           <Typography component="div" variant="h2" gutterBottom>
             <Box fontWeight="fontWeightBold">Last Added Episodes</Box>

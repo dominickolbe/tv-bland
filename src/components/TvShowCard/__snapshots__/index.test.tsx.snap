@@ -26,7 +26,6 @@ exports[`<TvShowCard /> renders snapshots 1`] = `
       variant="body2"
     >
       <Styled(MuiBox)>
-         
         The Big Bang Theory
       </Styled(MuiBox)>
     </WithStyles(ForwardRef(Typography))>

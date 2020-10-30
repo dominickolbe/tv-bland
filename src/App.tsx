@@ -11,7 +11,7 @@ import { PageHeader } from "./components/PageHeader";
 import { useStore } from "./store";
 import { getTheme } from "./theme";
 import { People } from "./views/People";
-import { Schedule } from "./views/Schedule";
+import { Start } from "./views/Start";
 import { TvShow } from "./views/TvShow";
 
 export const App = () => {
@@ -27,7 +27,7 @@ export const App = () => {
         <PageHeader onClickToggleTheme={onClickToggleTheme} />
         <Switch>
           <Route path="/" exact>
-            <Schedule />
+            <Start />
           </Route>
           <Route path="/tvshows/:id" exact>
             <TvShow />

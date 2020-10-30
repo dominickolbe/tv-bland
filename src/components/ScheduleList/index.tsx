@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { ScheduleType } from "../../models";
 import { TvShowEpisodeCard } from "../TvShowEpisodeCard";
 
-const RESULTS_PER_PAGE_DEFAULT = 18;
+const RESULTS_PER_PAGE_DEFAULT = 6;
 
 const useStyles = makeStyles(() => ({
   showMore: {

@@ -55,7 +55,6 @@ export const TvShow = () => {
     setLoading(false);
   };
 
-  // Update page title
   useTitle(tvshow ? tvshow.name : "...");
 
   useEffect(() => {

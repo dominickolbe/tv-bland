@@ -124,3 +124,14 @@ export type ScheduleItemType = rt.Static<typeof RtScheduleItem>;
 
 export const RtSchedule = rt.Array(RtScheduleItem);
 export type ScheduleType = rt.Static<typeof RtSchedule>;
+
+export const RtTvShowsSearch = rt.Array(
+  rt.Record({
+    score: rt.Number,
+    show: rt.Record({
+      ...RtTvShow.fields,
+      _embedded: rt.Undefined,
+    }),
+  })
+);
+export type TvShowsSearchType = rt.Static<typeof RtTvShowsSearch>;

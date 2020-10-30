@@ -23,7 +23,7 @@ exports[`<TvShowCard /> renders snapshots 1`] = `
     <WithStyles(ForwardRef(Typography))
       color="textSecondary"
       component="div"
-      variant="body2"
+      variant="body1"
     >
       <Styled(MuiBox)>
         The Big Bang Theory

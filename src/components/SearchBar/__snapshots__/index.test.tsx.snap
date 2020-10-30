@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBar /> renders snapshots 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Paper))
+      className="makeStyles-searchBar-1"
+    >
+      <WithStyles(ForwardRef(IconButton))
+        className="makeStyles-iconButton-3"
+        onClick={[Function]}
+      >
+        <SearchIcon />
+      </WithStyles(ForwardRef(IconButton))>
+      <WithStyles(ForwardRef(InputBase))
+        autoComplete="on"
+        className="makeStyles-input-2"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Search"
+        value=""
+      />
+      <WithStyles(ForwardRef(Divider))
+        className="makeStyles-divider-4"
+        orientation="vertical"
+      />
+      <WithStyles(ForwardRef(IconButton))
+        className="makeStyles-iconButton-3"
+        onClick={[Function]}
+      >
+        <ClearIcon />
+      </WithStyles(ForwardRef(IconButton))>
+    </WithStyles(ForwardRef(Paper))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`<SearchBar /> renders snapshots, with query 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <WithStyles(ForwardRef(Paper))
+      className="makeStyles-searchBar-1"
+    >
+      <WithStyles(ForwardRef(IconButton))
+        className="makeStyles-iconButton-3"
+        onClick={[Function]}
+      >
+        <SearchIcon />
+      </WithStyles(ForwardRef(IconButton))>
+      <WithStyles(ForwardRef(InputBase))
+        autoComplete="on"
+        className="makeStyles-input-2"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        placeholder="Search"
+        value="example search query"
+      />
+      <WithStyles(ForwardRef(Divider))
+        className="makeStyles-divider-4"
+        orientation="vertical"
+      />
+      <WithStyles(ForwardRef(IconButton))
+        className="makeStyles-iconButton-3"
+        onClick={[Function]}
+      >
+        <ClearIcon />
+      </WithStyles(ForwardRef(IconButton))>
+    </WithStyles(ForwardRef(Paper))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

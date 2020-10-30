@@ -4,6 +4,8 @@
   <p align="center">source of tv-bland, lol<p>
 </p>
 
+![Preview](https://github.com/dominickolbe/tv-bland/blob/master/screenshot.png?raw=true "tv-bland")
+
 ## Preview
 
 [see live version here](https://tv-bland.vercel.app)

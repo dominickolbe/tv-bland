@@ -8969,7 +8969,7 @@ overmind-react@^27.0.0:
   dependencies:
     overmind "26.0.0"
 
-overmind@26.0.0, overmind@^26.0.0:
+overmind@26.0.0:
   version "26.0.0"
   resolved "https://registry.yarnpkg.com/overmind/-/overmind-26.0.0.tgz#53480c09e6b99005f3c814c199531c27eb295bb8"
   integrity sha512-oSHOZgF84eQYNVRdswvwTt88az5Cbif49mH5sA2HcLDzX2oDH1CXDoNxcEGp60sTCryYt09d+3+LcXR1UEumLQ==
@@ -8978,6 +8978,17 @@ overmind@26.0.0, overmind@^26.0.0:
     is-plain-obj "^1.1.0"
     non-blocking-json "1.1.1"
     proxy-state-tree "6.1.0"
+    tslib "^1.10.0"
+
+overmind@^27.0.0:
+  version "27.0.0"
+  resolved "https://registry.yarnpkg.com/overmind/-/overmind-27.0.0.tgz#bebec800ef601521c23ffb72a03622842d60c600"
+  integrity sha512-Olh3Ckb+KJcYIBun+ZP0PU5bEPkdAIXt/uNtBWx6C9nfpX+dndTb1VSaEpA69diNGE3V38GnNnynd7K41ruiqA==
+  dependencies:
+    betsy "1.0.2"
+    is-plain-obj "^1.1.0"
+    non-blocking-json "1.1.1"
+    proxy-state-tree "6.2.0"
     tslib "^1.10.0"
 
 p-each-series@^2.1.0:
@@ -10109,6 +10120,13 @@ proxy-state-tree@6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/proxy-state-tree/-/proxy-state-tree-6.1.0.tgz#7a85eb89328e5973dc21f30b82062cf58186095e"
   integrity sha512-3vXW9NBjWutNakrRA4Wpy8EQ4knjjmGY583vQQxIR3xsvJ2iuUrGh5jSG+aVoccW0qWKNzaPdGAxpQXaQNdXrQ==
+  dependencies:
+    is-plain-obj "^1.1.0"
+
+proxy-state-tree@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/proxy-state-tree/-/proxy-state-tree-6.2.0.tgz#24e253a7539162a350dcfedbc8ba4952a00d1bc4"
+  integrity sha512-6xbFPeUArtx6eR3vmDJPEUhHLJebpKvceMe5DVClCF7ZHge8tVghbmPqJP4KZLmXMY3orHdFNA5blbFQkB5a+Q==
   dependencies:
     is-plain-obj "^1.1.0"
 

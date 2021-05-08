@@ -68,20 +68,22 @@ export const RtTvShow = rt.Record({
   language: rt.String.Or(rt.Null),
   type: rt.String.Or(rt.Null),
   genres: rt.Array(rt.String),
-  network: rt
-    .Record({
-      id: rt.Number,
-      name: rt.String,
-    })
-    .Or(rt.Null)
-    .Or(rt.Undefined),
-  schedule: rt
-    .Record({
-      days: rt.Array(rt.String),
-      time: rt.String,
-    })
-    .Or(rt.Null)
-    .Or(rt.Undefined),
+  network: rt.Optional(
+    rt
+      .Record({
+        id: rt.Number,
+        name: rt.String,
+      })
+      .Or(rt.Null)
+  ),
+  schedule: rt.Optional(
+    rt
+      .Record({
+        days: rt.Array(rt.String),
+        time: rt.String,
+      })
+      .Or(rt.Null)
+  ),
   status: rt.String,
   image: rt
     .Record({
@@ -94,11 +96,11 @@ export const RtTvShow = rt.Record({
       average: rt.Number.Or(rt.Null),
     })
     .Or(rt.Null),
-  _embedded: rt
-    .Record({
+  _embedded: rt.Optional(
+    rt.Record({
       cast: rt.Array(RtCast),
     })
-    .Or(rt.Undefined),
+  ),
 });
 export type TvShowType = rt.Static<typeof RtTvShow>;
 
@@ -107,9 +109,9 @@ export const RtScheduleItem = rt.Record({
   airtime: rt.String,
   id: rt.Number,
   name: rt.String,
-  number: rt.Number.Or(rt.Null).Or(rt.Undefined),
-  runtype: rt.Number.Or(rt.Null).Or(rt.Undefined),
-  season: rt.Number.Or(rt.Null).Or(rt.Undefined),
+  number: rt.Optional(rt.Number.Or(rt.Null)),
+  runtype: rt.Optional(rt.Number.Or(rt.Null)),
+  season: rt.Optional(rt.Number.Or(rt.Null)),
   summary: rt.String.Or(rt.Null),
   type: rt.String,
   show: RtTvShow,
@@ -130,7 +132,7 @@ export const RtTvShowsSearch = rt.Array(
     score: rt.Number,
     show: rt.Record({
       ...RtTvShow.fields,
-      _embedded: rt.Undefined,
+      _embedded: rt.Optional(rt.Undefined),
     }),
   })
 );

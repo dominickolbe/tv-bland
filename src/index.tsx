@@ -13,7 +13,6 @@ ReactDOM.render(
   <Provider value={overmind}>
     <App />
   </Provider>,
-
   document.getElementById("root")
 );
 

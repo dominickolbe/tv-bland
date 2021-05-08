@@ -38,7 +38,7 @@ exports[`<PageHeader /> renders snapshots 1`] = `
         color="primary"
         onClick={[Function]}
       >
-        <Brightness4Icon />
+        <Memo(ForwardRef(Brightness4Icon)) />
       </WithStyles(ForwardRef(IconButton))>
     </WithStyles(ForwardRef(Grid))>
   </WithStyles(ForwardRef(Grid))>

@@ -16,7 +16,7 @@ exports[`<SearchBar /> renders snapshots 1`] = `
         className="makeStyles-iconButton-3"
         onClick={[Function]}
       >
-        <SearchIcon />
+        <Memo(ForwardRef(SearchIcon)) />
       </WithStyles(ForwardRef(IconButton))>
       <WithStyles(ForwardRef(InputBase))
         autoComplete="on"
@@ -34,7 +34,7 @@ exports[`<SearchBar /> renders snapshots 1`] = `
         className="makeStyles-iconButton-3"
         onClick={[Function]}
       >
-        <ClearIcon />
+        <Memo(ForwardRef(ClearIcon)) />
       </WithStyles(ForwardRef(IconButton))>
     </WithStyles(ForwardRef(Paper))>
   </WithStyles(ForwardRef(Grid))>
@@ -57,7 +57,7 @@ exports[`<SearchBar /> renders snapshots, with query 1`] = `
         className="makeStyles-iconButton-3"
         onClick={[Function]}
       >
-        <SearchIcon />
+        <Memo(ForwardRef(SearchIcon)) />
       </WithStyles(ForwardRef(IconButton))>
       <WithStyles(ForwardRef(InputBase))
         autoComplete="on"
@@ -75,7 +75,7 @@ exports[`<SearchBar /> renders snapshots, with query 1`] = `
         className="makeStyles-iconButton-3"
         onClick={[Function]}
       >
-        <ClearIcon />
+        <Memo(ForwardRef(ClearIcon)) />
       </WithStyles(ForwardRef(IconButton))>
     </WithStyles(ForwardRef(Paper))>
   </WithStyles(ForwardRef(Grid))>

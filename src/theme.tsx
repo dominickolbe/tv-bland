@@ -10,6 +10,9 @@ export const getTheme = (darkmode: boolean) => {
       secondary: {
         main: "#F2D829",
       },
+      background: {
+        default: "#17171a",
+      },
     },
   });
   theme.typography.h1 = {

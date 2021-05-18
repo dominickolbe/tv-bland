@@ -28,9 +28,9 @@ https://tv-bland.vercel.app/tvshows/66
 
 I build this entire project with the following setup:
 
-- macOS Catalina version 10.15.7
-- node v14.16.1
-- npm v6.14.12
+- macOS Big Sur 11.4 Beta
+- node v14.17.0
+- npm v6.14.13
 - yarn v1.22.10
 
 ### Development

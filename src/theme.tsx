@@ -11,7 +11,7 @@ export const getTheme = (darkmode: boolean) => {
         main: "#F2D829",
       },
       background: {
-        default: "#17171a",
+        default: darkmode ? "#17171a" : "#F5F6FA",
       },
     },
   });

@@ -8,18 +8,18 @@
 
 ## Preview
 
-[see live version here](https://tv-bland.vercel.app)
+[see live version here](https://tv-bland.domnc.app)
 
 visit the latest version live and in color
 
 ```http
-https://tv-bland.vercel.app
+https://tv-bland.domnc.app
 ```
 
 Example tv show
 
 ```http
-https://tv-bland.vercel.app/tvshows/66
+https://tv-bland.domnc.app/tvshows/66
 ```
 
 ## Getting Started

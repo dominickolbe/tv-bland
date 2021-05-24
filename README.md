@@ -28,7 +28,7 @@ https://tv-bland.domnc.app/tvshows/66
 
 I build this entire project with the following setup:
 
-- macOS Big Sur 11.4 Beta
+- macOS Big Sur 11.4
 - node v14.17.0
 - npm v6.14.13
 - yarn v1.22.10

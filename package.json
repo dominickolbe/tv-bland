@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@types/axios": "0.14.0",
-    "@types/enzyme": "3.10.8",
+    "@types/enzyme": "3.10.9",
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/react-router-dom": "5.1.7",
     "enzyme": "3.11.0",
